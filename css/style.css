@@ -21,7 +21,7 @@ body {
   linear-gradient(270deg, #141218 3.38%, rgba(20, 18, 24, 0) 10.43%), 
   linear-gradient(179.45deg, #141218 0.55%, rgba(20, 18, 24, 0) 8.71%), 
   radial-gradient(64.78% 125.62% at 72.8% 56.48%, rgba(20, 18, 24, 0.33) 19.93%, #141218 100%), 
-  url("img/background.png");
+  url(../img/background.png);
   /*background-image: url("/img/background.jpg");*/
   background-repeat: no-repeat;
   background-position: top right 20%;
