@@ -4,7 +4,7 @@
 @font-face {
   font-family: 'MasonChronicles';
   src: url('../fonts/MasonChronicles.woff') format('woff'),
-       url('../fonts/MasonChronicles.woff2') format('woff2');
+        url('../fonts/MasonChronicles.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -273,6 +273,7 @@ body {
   background: #fff;
 }
 .modal-header{
+  color: #000;
   margin: 30px 0;
   font-size: 20px;
   text-align: center;
