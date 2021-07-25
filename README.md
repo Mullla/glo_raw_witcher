@@ -8,4 +8,5 @@
 # Библиотеки:
 - jQuery
 - Fancybox
-- Swiper Slider JS
+- Swiper JS
+- Animate
