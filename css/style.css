@@ -37,7 +37,7 @@ body {
   margin: auto;
   flex: 1 0 auto;
 }
-.header {
+.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -146,7 +146,6 @@ body {
   position: relative;
   transform: translateX(5px);
 }
-/* slider */
 .series {
   display: flex;
   align-items: center;
@@ -244,7 +243,6 @@ body {
   max-width: 400px;
   margin-left: 0;
 }
-/*footer*/
 .footer {
   background-color: #141218;
   padding: 20px 0;
@@ -266,7 +264,6 @@ body {
 .menu-button {
   display: block;
 }
-/*modal window*/
 .demo-modal {
   position: fixed;
   width: 50%;
@@ -310,7 +307,6 @@ body {
   height: 100%;
 }
 
-/*responsive*/
 @media (max-width: 760px) {
   body {
     background-position: top right 55%;
@@ -378,7 +374,7 @@ body {
     transform: rotate(-45deg);
     margin-top: 0;
   }
-  .header {
+  .header-content {
     display: none;
     flex-direction: column;
     position: absolute;
