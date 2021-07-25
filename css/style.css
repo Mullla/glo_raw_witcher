@@ -39,7 +39,7 @@ body {
   margin: auto;
   flex: 1 0 auto;
 }
-.header {
+.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -380,7 +380,7 @@ body {
     transform: rotate(-45deg);
     margin-top: 0;
   }
-  .header {
+  .header-content {
     display: none;
     flex-direction: column;
     position: absolute;
