@@ -1,27 +1,32 @@
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 @font-face {
-  font-family: 'MasonChronicles';
-  src: url('../fonts/MasonChronicles.woff') format('woff'),
-        url('../fonts/MasonChronicles.woff2') format('woff2');
+  font-family: "MasonChronicles";
+  src: url("../fonts/MasonChronicles.woff") format("woff"),
+    url("../fonts/MasonChronicles.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 body {
   /*background-color: #141218;*/
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
-  background: 
-  linear-gradient(180deg, rgba(20, 18, 24, 0) 59.28%, #141218 100%), 
-  linear-gradient(270deg, #141218 3.38%, rgba(20, 18, 24, 0) 10.43%), 
-  linear-gradient(179.45deg, #141218 0.55%, rgba(20, 18, 24, 0) 8.71%), 
-  radial-gradient(64.78% 125.62% at 72.8% 56.48%, rgba(20, 18, 24, 0.33) 19.93%, #141218 100%), 
-  url("../img/background.png");
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0) 59.28%, #141218 100%),
+    linear-gradient(270deg, #141218 3.38%, rgba(20, 18, 24, 0) 10.43%),
+    linear-gradient(179.45deg, #141218 0.55%, rgba(20, 18, 24, 0) 8.71%),
+    radial-gradient(
+      64.78% 125.62% at 72.8% 56.48%,
+      rgba(20, 18, 24, 0.33) 19.93%,
+      #141218 100%
+    ),
+    url("../img/background.png");
   /*background-image: url("/img/background.jpg");*/
   background-repeat: no-repeat;
   background-position: top right 20%;
@@ -48,7 +53,7 @@ body {
 .menu-link {
   font-size: 14px;
   line-height: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   margin-right: 24px;
 }
@@ -77,7 +82,7 @@ body {
   display: flex;
   align-items: center;
 }
-.rating-number{
+.rating-number {
   font-size: 12px;
   line-height: 14px;
   margin-left: 9px;
@@ -89,7 +94,7 @@ body {
   font-weight: 500;
   font-size: 76px;
   line-height: 89px;
-  font-family: 'MasonChronicles', serif;
+  font-family: "MasonChronicles", serif;
   margin-bottom: 10px;
 }
 .main-description {
@@ -100,7 +105,7 @@ body {
 }
 .button {
   display: inline-block;
-  background: #9D2929;
+  background: #9d2929;
   border-radius: 8px;
   color: #fff;
   border: none;
@@ -119,7 +124,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #9D2929;
+  background: #9d2929;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -128,11 +133,11 @@ body {
   margin: auto;
   animation-iteration-count: infinite;
 }
-.play::before{
+.play::before {
   content: "";
   width: 132px;
   height: 132px;
-  background: #9D2929;
+  background: #9d2929;
   opacity: 0.5;
   position: absolute;
   border-radius: 50%;
@@ -149,7 +154,7 @@ body {
   align-items: center;
   margin-bottom: 60px;
   position: relative;
-  max-width: 420px;
+  max-width: 435px;
 }
 .card {
   width: 164px;
@@ -162,7 +167,7 @@ body {
   margin-right: 30px;
 }
 
-.card-subtitle{
+.card-subtitle {
   font-size: 10px;
   line-height: 12px;
   margin-bottom: 2px;
@@ -172,50 +177,58 @@ body {
   font-size: 14px;
   line-height: 16px;
 }
-.series-1{
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/1.jpg);
+.series-1 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2d2d2d 100%),
+    url("../img/series/1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-.series-2{
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/2.jpg);
+.series-2 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2d2d2d 100%),
+    url("../img/series/2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-.series-3{
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/3.jpg);
+.series-3 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2d2d2d 100%),
+    url("../img/series/3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-.series-4{
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/4.jpg);
+.series-4 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2d2d2d 100%),
+    url("../img/series/4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-.series-5{
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/5.jpg);
+.series-5 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2d2d2d 100%),
+    url("../img/series/5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-.series-6{
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/6.jpg);
+.series-6 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2d2d2d 100%),
+    url("../img/series/6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-.series-7{
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/7.jpg);
+.series-7 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2d2d2d 100%),
+    url("../img/series/7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-.series-8{
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/8.jpg);
+.series-8 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2d2d2d 100%),
+    url("../img/series/8.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -230,7 +243,7 @@ body {
   background-color: transparent;
 }
 .swiper-container {
-  max-width: 420px;
+  max-width: 400px;
   margin-left: 0;
 }
 /*footer*/
@@ -244,24 +257,24 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.footer-link{
+.footer-link {
   text-decoration: none;
-  color: rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.4);
   margin-left: 25px;
 }
-.copyright{
-  color: rgba(255,255,255,0.4);
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
 }
 .menu-button {
   display: block;
 }
 /*modal window*/
-.demo-modal{
+.demo-modal {
   position: fixed;
   width: 50%;
   height: 50%;
   padding: 20px;
-  top:25%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
   margin: auto;
@@ -272,24 +285,24 @@ body {
   border-radius: 4px;
   background: #fff;
 }
-.modal-header{
+.modal-header {
   color: #000;
   margin: 30px 0;
   font-size: 20px;
   text-align: center;
   font-weight: 700;
 }
-.modal-btn{
+.modal-btn {
   align-self: center;
   padding: 10px 15px;
   color: #fff;
-  background-color: #5671F6;
+  background-color: #5671f6;
   border: none;
-  border-radius:  4px;
+  border-radius: 4px;
 }
 
-.overlay{
-  content: '';
+.overlay {
+  content: "";
   position: fixed;
   z-index: 200;
   top: 0;
@@ -301,7 +314,7 @@ body {
 
 /*responsive*/
 @media (max-width: 760px) {
-  body{
+  body {
     background-position: top right 55%;
   }
   .play {
@@ -318,10 +331,9 @@ body {
   .footer-link:first-child {
     margin-left: 0;
   }
-
 }
-@media (max-width: 540px){
-  .menu-button{
+@media (max-width: 540px) {
+  .menu-button {
     display: block;
     position: absolute;
     right: 35px;
@@ -333,8 +345,8 @@ body {
     transition: transform 0.2s;
     cursor: pointer;
   }
-  .menu-button::before{
-    content:"";
+  .menu-button::before {
+    content: "";
     display: block;
     position: absolute;
     top: 0;
@@ -345,8 +357,8 @@ body {
     margin-top: -7px;
     transition: transform 0.2s;
   }
-  .menu-button::after{
-    content:"";
+  .menu-button::after {
+    content: "";
     display: block;
     position: absolute;
     top: 0;
@@ -374,7 +386,7 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    background-color: #9D2929;
+    background-color: #9d2929;
     width: 250px;
     padding-bottom: 40px;
   }
