@@ -11,7 +11,6 @@
   font-style: normal;
 }
 body {
-  /*background-color: #141218;*/
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -27,7 +26,6 @@ body {
       #141218 100%
     ),
     url("../img/background.png");
-  /*background-image: url("/img/background.jpg");*/
   background-repeat: no-repeat;
   background-position: top right 20%;
   min-height: 100vh;
